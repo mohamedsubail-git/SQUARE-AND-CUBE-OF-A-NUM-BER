@@ -76,11 +76,11 @@ MOV A,#00H
 ADDC A,53H
 MOV 53H,A
 END
-
-
+```
 
 ## OUTPUT
-<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/e1d2f362-369c-45e7-ab81-b639b1df603c" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/3ae46475-6081-4e3d-bdf8-141abb2e7406" />
+
 
 
 ## RESULT
