@@ -15,19 +15,25 @@ To write and execute an Assembly language program for finding the square of a gi
 4. The output square value is stored in Port 2 (P2).
 
 ## PROGRAM
-```
+
+ORG 00H
+MOV DPTR,#4500H
+MOVX A,@DPTR
+MOV B,A
+MUL AB
+INC DPTR
+MOVX @DPTR,A
+INC DPTR
+MOV A,B
+MOVX @DPTR,A
+END
 
 
 
 
-
-
-
-
-
-```
 
 ## OUTPUT
+<img width="1920" height="1200" alt="cube code" src="https://github.com/user-attachments/assets/187e1a58-b6dd-4fea-9d60-e2a3b11edb67" />
 
 
 ## RESULT
